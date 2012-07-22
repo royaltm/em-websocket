@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency("eventmachine", ">= 0.12.9")
   s.add_dependency("addressable", '>= 2.1.1')
+  s.add_dependency("fast_xor", '~> 1.1.0')
   s.add_development_dependency('em-spec', '~> 0.2.6')
   s.add_development_dependency("eventmachine", "~> 0.12.10")
   s.add_development_dependency('em-http-request', '~> 0.2.6')
